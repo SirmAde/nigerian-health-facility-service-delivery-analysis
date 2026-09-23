@@ -2,7 +2,7 @@
 # -------------------------------------------
 
 library(readxl)
-file_path <- ("C:/Users/User/OneDrive/Desktop/MSc Courses/Data Analysis with Stat Software/nigeria_health_facility_dataset_enhanced.xlsx")
+file_path <- "data/nigeria_health_facility_dataset_enhanced.xlsx"
 health_data <- read_excel(file_path)
 View(health_data)
 
